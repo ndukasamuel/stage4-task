@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+#hero-section, #quote-section, #help-section, #repair-section {
+    padding: 80px 0;
+}
+#hero-section .text-section, #hero-section .image-section{
+    width: 50%;
+}
+
+#hero-section .image-section {
+    background: url(../image/header-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 68vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #ff6433;
+    border-radius: 12px;
+    padding: 16px 48px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: white;
+    border: none;
+}
+
+.time-section{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.time-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+.time-section .time-text {
+    width: 95%;
+    /* margin-left: 20px; */
+}
+.time-section img{
+    width: 100%;
+}
+.light-grey{
+    color: #939191;
+}
+
+#quote-section{
+    background: #e2e6e9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section{
+    width: 45%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li{
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 10%;
+    padding-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+#quote-section .left-section .text-box{
+    width: 50%;
+}
+#quote-section .left-section .text-box h5{
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+#quote-section .right-section, #quote-section .left-section {
+    width: 50%;
+}
+
+#quote-section .right-form-section h3 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#quote-section .right-form-section input{
+    width: 100%;
+    padding: 20px;
+}
+
+.help-one-text h3{
+    margin: 8% 0% 5% 4%;
+    font-size: 32px;
+}
+
+.left-side h1{
+    font-size: 58px;
+    margin-top: 90px;
+}
+.left-side p {
+    font-size: 16px;
+    margin-top: 30px;
+}
+.vertical-line{
+    border-left: 2px dotted orange;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.right-side ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.right-side{
+    margin-left: 134px;
+}
+
+#help-section .left-side, #help-section .right-side {
+    width: 50%;
+}
+
+#help-section .left-side .help-one-text p {
+    margin-top: 24px;
+    margin-left: 15px;
+}
+
+/* repair section */
+#repair-section {
+    background: #e2e6e9;
+}
+.repair-section img{
+    margin-right: 4px;
+}
+.repair-section {
+    width: 80%;
+}
+#repair-section h2{
+    font-size: 58px;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+#repair-section h4{
+    font-size: 24px;
+    text-align: center;
+    margin: 20px;
+}
+.learn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.learn p {
+    margin-left: 1076px;
+    /* margin-top: 25px; */
+    margin-right: 5px;
+}
